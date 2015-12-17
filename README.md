@@ -40,4 +40,4 @@ Patterner by Sylvain Poitras is licensed under the GNU General Public License v.
 ##Thanks
 Looping engine code adapted from Glenn Mossy's sequence recorder (Creative Commons CC-BY-SA) at http://littlebits.cc/projects/sequence-recorder
 
-Iterrupt setup code from: http://playground.arduino.cc/Main/PinChangeInterrupt
+Interrupt setup code from: http://playground.arduino.cc/Main/PinChangeInterrupt
