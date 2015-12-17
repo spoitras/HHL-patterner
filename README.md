@@ -30,7 +30,7 @@ Example perfboard layout: pefboard.pdf
 Schematic: schematic.pdf
 
 ###Debouncing
-Schematic shows debouncer implemented by Murat Uzam with PIC16F628: http://www.electronicsworld.co.uk/
+Schematic shows debouncer implemented by Murat Uzam with PIC16F628: http://www.meliksah.edu.tr/muzam/ew_2006.zip
 
 Feel free to use whatever debouncing strategy you like best, but be aware that the arduino code as written does not debounce the buttons at all.
 
