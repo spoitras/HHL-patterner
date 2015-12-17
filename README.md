@@ -2,7 +2,7 @@
 ##About
 The Patterner is a modulation generator that is meant to replace an expression pedal for use with guitar pedals that have an expression input.
 
-Instead of the single potentiometer present on a regular expression pedal, the Patterner has four slide potentiometers labelled 00, 01, 10 and 11. The two digit numeric code corresponds to the state (off=0, on=1) of the two left-most buttons (orange and purple). Pressing the buttons select with potentiometer modulates the guitar pedal connected to the Patterner's TRS output. The sliders' LED lights up to indicate currently selected slider.
+Instead of the single potentiometer present on a regular expression pedal, the Patterner has four slide potentiometers labelled 00, 01, 10 and 11. The two digit numeric code corresponds to the state (off=0, on=1) of the two left-most buttons (orange and purple). Pressing the buttons select which potentiometer modulates the guitar pedal connected to the Patterner's TRS output. The sliders' LED light up to indicate the currently selected slider.
 
 The Patterner also allows the recording and playback of sequences played on these two buttons. When the status LED above the right-most button is off, pressing the right-most button (black) once will arm the recording (LED turns red). The sequence will begin recording with the next press of the purple or orange buttons and will end with the next press of the black button. Playback of the sequence will start immediately after this second press of the black button (LED turns green). Pressing the black button during playback will pause the playback of the sequence (LED turns black) and pressing it again will restart the sequence. A long press of the black button at any time will clear the recorded sequence (LED turns off).
 
