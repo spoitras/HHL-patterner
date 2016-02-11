@@ -8,6 +8,8 @@ The Patterner also allows the recording and playback of sequences played on thes
 
 While a sequence is playing the Patterner's Speed control lets the player vary the playback speed of the recorded sequence.
 
+video: https://youtu.be/wvuWI0yQ_Vs
+
 ##Implementation
 ###Code
 The Patterner is implemented with Arduino and requires the metro library. Buttons are not debounced in software (see debouncing below).
