@@ -1,5 +1,5 @@
-#Hitchhiker Laboratories Patterner
-##About
+# Hitchhiker Laboratories Patterner
+## About
 The Patterner is a modulation generator that is meant to replace an expression pedal for use with guitar pedals that have an expression input.
 
 Instead of the single potentiometer present on a regular expression pedal, the Patterner has four slide potentiometers labelled 00, 01, 10 and 11. The two digit numeric code corresponds to the state (off=0, on=1) of the two left-most buttons (orange and purple). Pressing the buttons select which potentiometer modulates the guitar pedal connected to the Patterner's TRS output. The sliders' LED light up to indicate the currently selected slider.
@@ -10,13 +10,13 @@ While a sequence is playing the Patterner's Speed control lets the player vary t
 
 video: https://youtu.be/wvuWI0yQ_Vs
 
-##Implementation
-###Code
+## Implementation
+### Code
 The Patterner is implemented with Arduino and requires the metro library. Buttons are not debounced in software (see debouncing below).
 
 Code: patterner.ino
 
-###Hardware
+### Hardware
 Arduino Pro Mini is the ideal platform for small guitar pedals.
 
 Arcade buttons are ideal for quick pattern playing with either hands or feet.
@@ -31,15 +31,15 @@ Example perfboard layout: pefboard.pdf
 
 Schematic: schematic.pdf
 
-###Debouncing
+### Debouncing
 Schematic shows debouncer implemented by Murat Uzam with PIC16F628: http://www.meliksah.edu.tr/muzam/ew_2006.zip
 
 Feel free to use whatever debouncing strategy you like best, but be aware that the arduino code as written does not debounce the buttons at all.
 
-##Licence
+## Licence
 Patterner by Sylvain Poitras is licensed under the GNU General Public License v.3: https://www.gnu.org/copyleft/gpl.html
 
-##Thanks
+## Thanks
 Looping engine code adapted from Glenn Mossy's sequence recorder (Creative Commons CC-BY-SA) at http://littlebits.cc/projects/sequence-recorder
 
 Interrupt setup code from: http://playground.arduino.cc/Main/PinChangeInterrupt
